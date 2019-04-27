@@ -1,3 +1,10 @@
+/* 
+  AUTHOR: ARUMDAWOCODE
+  Project: Sign In/Sign Up Form Using HTML5 & CSS
+  Email Address: arumdawocode@gmail.com
+  NB: Replica of a video I saw on youtube :)
+*/
+
 *{
     box-sizing: border-box;
 }
@@ -209,20 +216,6 @@ transition: transform 0.6s ease-in-out;
 }
 
 /* Footer */
-/* .footer-container{
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 
-        0 14px 28px rgba(0, 0, 0, 0.25), 
-        0 10px 10px rgba(0, 0, 0, 0.22);
-    position: relative;
-    overflow: hidden;
-    margin-top: 100px;
-    width: 768px;
-    max-width: 100%;
-    min-height: 30px;
-} */
-
 
 .footer-container {
     position: fixed;
@@ -236,6 +229,11 @@ transition: transform 0.6s ease-in-out;
 
  .footer-container span{
      font-size: 1rem;
+     margin-bottom: 3px;
+ }
+
+ .footer-social-container p{
+    margin-bottom: 10px;
  }
 
  .footer-social-container a{
@@ -245,7 +243,6 @@ transition: transform 0.6s ease-in-out;
     justify-content: center;
     align-items: center;
     margin: 0 5px;
-    margin-bottom: 10px;
     height: 40px;
     width: 40px;
 }
